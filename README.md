@@ -3,7 +3,7 @@ This repository contains the travel demand models estimated for the Greater Bost
 
 (Lu, Y, Adnan, M, Basak, K, Pereira, FC, Carrion, C, Saber, VH, Loganathan, H and Ben- Akiva, M. (2015). Simmobility mid-term simulator: A state of the art integrated agent based demand and supply model. In 94th Annual Meeting of the Transportation Research Board, Washington, DC.)
 
-1.bpb - Day Pattern Travel
+1.dpb - Day Pattern Travel
 
 2.dpt - Day Pattern Tours
 
@@ -12,51 +12,51 @@ This repository contains the travel demand models estimated for the Greater Bost
 4.nt - Number of Tours
 
 	4a.ntw - Number of Tours (Work)
-	
+
 	4b.nte - Number of Tours (Education)
-	
+
 	4c.ntp - Number of Tours (Personal)
-	
+
 	4d.ntr - Number of Tours (Recreation)
-	
+
 	4e.nts - Number of Tours (Shop)
-	
+
 	4f.ntes - Number of Tours (Escort)
-	
+
 5.tuw - Tour Usual Work
 
 6.tm - Tour Mode
 
 	6a.tmw - Tour Mode (Work)
-	
+
 	6b.tme -Tour Mode (Education)
-	
+
 7.md - Mode Destination
 
 	7a.tmdw - Tour Mode Destination (Work)
-	
+
 	7c.tmdp - Tour Mode Destination (Personal)
-	
+
 	7d.tmdr - Tour Mode Destination (Recreation)
-	
+
 	7e.tmds - Tour Mode Destination (Shop)
-	
+
 	7f.tmdes - Tour Mode Destination (Escort)
-	
+
 8.ttd - Tour Time of Day
 
 	8a.ttdw - Tour Time of Day (Work)
-	
+
 	8b.ttde - Tour Time of Day (Education)
-	
+
 	8c.ttdp - Tour Time of Day (Personal)
-	
+
 	8d.ttdr - Tour Time of Day (Recreation)
-	
+
 	8e.ttds - Tour Time of Day (Shop)
-	
+
 	8f.ttdes - Tour Time of Day (Escort)
-	
+
 9.isg - Intermediate Stop Generation
 
 10.imd - Intermediate Stop Mode Destination
@@ -70,7 +70,8 @@ This repository contains the travel demand models estimated for the Greater Bost
 14.sttd - Workbased Subtour Time of Day
 
 
-The repository also contains example Day Activity Schedule outputs for the Greater Boston Area.
+Due to GitHub space constraints, the example Day Activity Schedule can be found the the following Google Drive folder:
+https://drive.google.com/drive/folders/1i8uQrZQfpde0U0wWxTcsVUMNoXiLGImn?usp=sharing
 
 The project as a whole is a work in progress and is constantly evolving.
 
