@@ -1,7 +1,9 @@
 # simmobilityGBApreday
-This repository contains the travel demand models estimated for the Greater Boston Area for implementation in SimMobility. All files include the latest estimation and implementation files. The estimation files are PythonBiogeme outputs. The implementation files are in Lua. These are interfaced with SimMobility.
+This repository contains the travel demand models estimated for the Greater Boston Area for implementation in SimMobility. All files include the estimation and latest implementation files. The estimation files are PythonBiogeme outputs. The implementation files are in Lua. These are interfaced with SimMobility.
 
 (Lu, Y, Adnan, M, Basak, K, Pereira, FC, Carrion, C, Saber, VH, Loganathan, H and Ben- Akiva, M. (2015). Simmobility mid-term simulator: A state of the art integrated agent based demand and supply model. In 94th Annual Meeting of the Transportation Research Board, Washington, DC.)
+
+The folder named original contains the initial estimation results and Lua implementations. The folder contains the following sub-folders:
 
 1.dpb - Day Pattern Travel
 
@@ -69,10 +71,17 @@ This repository contains the travel demand models estimated for the Greater Bost
 
 14.sttd - Workbased Subtour Time of Day
 
-
 Due to GitHub space constraints, the example Day Activity Schedule can be found the the following Google Drive folder:
 https://drive.google.com/drive/folders/1i8uQrZQfpde0U0wWxTcsVUMNoXiLGImn?usp=sharing
 
-The project as a whole is a work in progress and is constantly evolving.
+For questions regarding this folder, please contact iviegas@mit.edu.
 
-For questions, please contact iviegas@mit.edu.
+The folder april_imp contains the version of the Lua files that was implemented as in April, 2018. Modifications that has been done since the original estimations include the following main points.
+
+1. The models are further calibrated to match the MTS data. This process was also based on other data sources such as the demand generated from the CTPS four-step model.
+
+2. New modes which didn't exist in the MTS survey were added to the mode and mode/destination model based on more up-to-date data sources.
+
+For questions regarding this folder, please contact yifeix@mit.edu
+
+The project as a whole is a work in progress and is constantly evolving.
